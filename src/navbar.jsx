@@ -36,10 +36,10 @@ function Navbar() {
       <button onClick={handleClick}><img src={imageSrc} data-aos="zoom-in" data-aos-duration="500"  alt="Menu" className='w-10 ml-4 xl:hidden'/></button>
       {isActive ? (
         <div className='absolute flex flex-col justify-center items-center text-center top-14 -right-1/3 dropdown z-50  ' >
-          <a className=' py-4 text-lg text-center text-slate-950 hover:border-b-2 max-w-md w-screen z-50  border-l-8 border-b-2 rounded-l-xl  border-black  bg-slate-50' href='/joy/' data-aos="fade-down" data-aos-duration="500" data-aos-delay="100">Home</a>
-          <a className=' py-4 text-lg text-center text-slate-950 hover:border-b-2 max-w-md w-screen z-50  border-l-8 border-b-2 rounded-l-xl  border-black  bg-slate-50' href='/joy/' data-aos="fade-down" data-aos-duration="500" data-aos-delay="200">Collections</a>
-          <a className=' py-4 text-lg text-center text-slate-950 hover:border-b-2 max-w-md w-screen z-50  border-l-8 border-b-2 rounded-l-xl  border-black  bg-slate-50' href='/joy/' data-aos="fade-down" data-aos-duration="500" data-aos-delay="300">About</a>
-          <a className=' py-4 text-lg text-center text-slate-950 hover:border-b-2 max-w-md w-screen z-50  border-l-8 border-b-2 rounded-l-xl  border-black  bg-slate-50' href='/joy/' data-aos="fade-down" data-aos-duration="500" data-aos-delay="400">Contacts</a>
+          <a className=' py-4 text-lg text-center text-slate-950 hover:border-b-2 max-w-md w-screen z-50  border-l-8 border-b-2 rounded-l-xl  border-black  bg-slate-50' href='#' data-aos="fade-down" data-aos-duration="500" data-aos-delay="100">Home</a>
+          <a className=' py-4 text-lg text-center text-slate-950 hover:border-b-2 max-w-md w-screen z-50  border-l-8 border-b-2 rounded-l-xl  border-black  bg-slate-50' href='#' data-aos="fade-down" data-aos-duration="500" data-aos-delay="200">Collections</a>
+          <a className=' py-4 text-lg text-center text-slate-950 hover:border-b-2 max-w-md w-screen z-50  border-l-8 border-b-2 rounded-l-xl  border-black  bg-slate-50' href='#' data-aos="fade-down" data-aos-duration="500" data-aos-delay="300">About</a>
+          <a className=' py-4 text-lg text-center text-slate-950 hover:border-b-2 max-w-md w-screen z-50  border-l-8 border-b-2 rounded-l-xl  border-black  bg-slate-50' href='#' data-aos="fade-down" data-aos-duration="500" data-aos-delay="400">Contacts</a>
         
         </div>
       ) : (
@@ -48,10 +48,10 @@ function Navbar() {
       )}
 
     
-      <a className='px-4 py-2 mb-4 text-xl text-slate-950 hover:border-b-2 border-b-2 font-semibold border-slate-50  hover:border-b-slate-800 xl:inline-block hidden ' href='/joy/'>Home</a>
-      <a className='px-4 py-2 mb-4 text-xl text-slate-950 hover:border-b-2 border-b-2 font-semibold border-slate-50  hover:border-b-slate-800 xl:inline-block hidden ' href='/joy/'>Collections</a>
-      <a className='px-4 py-2 mb-4 text-xl text-slate-950 hover:border-b-2 border-b-2 font-semibold border-slate-50  hover:border-b-slate-800 xl:inline-block hidden ' href='/joy/'>About</a>
-      <a className='px-4 py-2 mb-4 text-xl text-slate-950 hover:border-b-2 border-b-2 font-semibold border-slate-50  hover:border-b-slate-800 xl:inline-block hidden ' href='/joy/'>Contacts</a>
+      <a className='px-4 py-2 mb-4 text-xl text-slate-950 hover:border-b-2 border-b-2 font-semibold border-slate-50  hover:border-b-slate-800 xl:inline-block hidden ' href='#'>Home</a>
+      <a className='px-4 py-2 mb-4 text-xl text-slate-950 hover:border-b-2 border-b-2 font-semibold border-slate-50  hover:border-b-slate-800 xl:inline-block hidden ' href='#'>Collections</a>
+      <a className='px-4 py-2 mb-4 text-xl text-slate-950 hover:border-b-2 border-b-2 font-semibold border-slate-50  hover:border-b-slate-800 xl:inline-block hidden ' href='#'>About</a>
+      <a className='px-4 py-2 mb-4 text-xl text-slate-950 hover:border-b-2 border-b-2 font-semibold border-slate-50  hover:border-b-slate-800 xl:inline-block hidden ' href='#'>Contacts</a>
     </div>
       
     </div>
