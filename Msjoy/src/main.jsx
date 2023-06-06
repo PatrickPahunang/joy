@@ -7,7 +7,6 @@ import 'aos/dist/aos.css';
 import Navbar from './navbar.jsx';
 
 
-
 AOS.init({startEvent: 'load',
 once : 'true,'});
 AOS.refresh();

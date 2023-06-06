@@ -4,8 +4,6 @@ import head3 from '../assets/head3.jpg'
 
  
 function Home() {
-
-  
     return (
       
       
