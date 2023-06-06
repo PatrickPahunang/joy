@@ -4,12 +4,14 @@ import './index.css'
 import './App.css'
 import React, { useState  } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-
+import logo from './assets/favicon.svg'
+import hamburger from '../src/assets/hamburger.svg'
+import close from '../src/assets/close.svg'
 
  
 function Navbar() {
   const [isActive, setIsActive] = useState(false);
-  const [imageSrc, setImageSrc] = useState('/hamburger.svg');
+  const [imageSrc, setImageSrc] = useState(hamburger);
 
 
 
@@ -18,7 +20,7 @@ function Navbar() {
     setIsActive(!isActive);
     
     // Function 2
-    setImageSrc(isActive ? '/hamburger.svg' : '/close.svg');
+    setImageSrc(isActive ? hamburger : close );
   };
 
  
@@ -29,7 +31,7 @@ function Navbar() {
     
     <div className='w-screen h-20 flex items-center justify-center text-center px-5 bg-slate-50'>
     <div className='  xl:w-2/4 max-w-7xl  flex text-center items-center justify-end xl:text-2xl text-sm w-max '>
-      <a ><img src="/favicon.svg" className='w-10 mx-5' data-aos="fade-down" data-aos-duration="1000" /></a> <span data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100">Msjoy Beads and Wire Jewelry</span>
+      <a ><img src={logo} className='w-10 mx-5' data-aos="fade-down" data-aos-duration="1000" /></a> <span data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100">Msjoy Beads and Wire Jewelry</span>
     </div>
     
     <div className='transition ease-in duration-1000 flex justify-center items-center text-center xl:w-3/4 max-w-7xl xl:inline-block w-20 z-50 ' data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
