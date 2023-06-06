@@ -6,7 +6,7 @@ import React, { useState  } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
 
-
+ 
 function Navbar() {
   const [isActive, setIsActive] = useState(false);
   const [imageSrc, setImageSrc] = useState('/hamburger.svg');
