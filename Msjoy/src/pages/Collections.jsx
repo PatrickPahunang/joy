@@ -4,19 +4,15 @@ import necklace2 from '../assets/necklace2.jpg';
 import necklace3 from '../assets/necklace3.jpg';
 import necklace4 from '../assets/necklace4.jpg';
 
-
 import ring1 from '../assets/ring1.jpg';
 import ring2 from '../assets/ring2.jpg';
 import ring3 from '../assets/ring3.jpg';
 import ring4 from '../assets/ring4.jpg';
 
-
-
 import earrings1 from '../assets/earrings1.jpg';
 import earrings2 from '../assets/earrings2.jpg';
 import earrings3 from '../assets/earrings3.jpg';
 import earrings4 from '../assets/earrings4.jpg';
-
 
 import package1 from '../assets/package1.jpg';
 import package2 from '../assets/package2.jpg';
@@ -95,8 +91,7 @@ const [modalIsOpen, setModalIsOpen] = useState(false);
         </div>
         
         
-        
-
+    
 
 
       </div>
