@@ -21,10 +21,10 @@ function App() {
   <div className='h-max w-screen'>
   <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/collections" element={<Collections/>} />
-        <Route path="/about" element={<About/>} />
-        <Route path="/contacts" element={<Contacts/>} />
+        <Route path="/joy/" element={<Home />} />
+        <Route path="/joy/collections" element={<Collections/>} />
+        <Route path="/joy/about" element={<About/>} />
+        <Route path="/joy/contacts" element={<Contacts/>} />
       </Routes>
   </Router>
 
